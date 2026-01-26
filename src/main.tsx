@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './app/App' // Menunjuk ke folder app
-import './styles/index.css' // Menunjuk ke folder styles
+import App from './app/App' 
+import './styles/index.css' 
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>

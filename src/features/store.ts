@@ -9,6 +9,5 @@ export const store = configureStore({
   },
 });
 
-// PASTIKAN ADA KATA 'export' DI BAWAH INI
 export type RootState = ReturnType<typeof store.getState>;
 export type AppDispatch = typeof store.dispatch;

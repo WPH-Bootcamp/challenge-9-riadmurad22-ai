@@ -21,7 +21,6 @@ const cartSlice = createSlice({
         state.items.push({ ...action.payload, quantity: 1 });
       }
     },
-    // Tambahkan reducer lain (removeFromCart, dll) di sini nanti
   },
 });
 

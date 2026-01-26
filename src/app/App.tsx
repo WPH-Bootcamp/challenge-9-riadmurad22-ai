@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Providers } from "../components/Providers"; // Memastikan Redux & Query aktif
+import { Providers } from "../components/Providers"; 
 import MainLayout from "../components/MainLayout";
 import Home from "../pages/Home";
 

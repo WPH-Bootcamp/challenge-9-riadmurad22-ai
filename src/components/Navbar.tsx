@@ -4,7 +4,6 @@ import { useSelector } from "react-redux";
 import type { RootState } from "../features/store";
 
 const Navbar = () => {
-  // Mengambil jumlah item unik di cart dari Redux
   const cartItems = useSelector((state: RootState) => state.cart.items);
   const totalItems = cartItems.reduce((acc, item) => acc + item.quantity, 0);
 
